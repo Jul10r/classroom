@@ -9,6 +9,10 @@ This project was built as a portfolio piece to demonstrate building a production
 ![Classes List](screenshots/classes.png)
 ### Create Class & Schedules
 ![Create Class](screenshots/create-class.png)
+### Subjects
+![Subjects List](screenshots/subjects.png)
+### Class Details
+![Class Details](screenshots/class-details.png)
 ## Key Features
 - **Dashboard:** At-a-glance metrics showing total subjects, active classes, and teachers.
 - **Class Management:** Create, view, and organize classes with subject details, assigned teachers, seat capacity, invite codes, and custom schedules.
