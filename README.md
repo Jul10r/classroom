@@ -1,24 +1,15 @@
 # Classroom Management System
-
 A full-stack web application designed for managing school operations, courses, and schedules. Built with a modern TypeScript stack, featuring a responsive admin dashboard and a relational database backend.
-
 ## Overview
-
 This project was built as a portfolio piece to demonstrate building a production-ready web application from database design to frontend UI. It provides an administrative interface for schools and universities to organize departments, manage subjects, assign teachers to classes, and set up weekly class schedules.
-
 ## Screenshots
-
 ### Dashboard
 ![Dashboard Overview](screenshots/dashboard.png)
-
 ### Class Management
 ![Classes List](screenshots/classes.png)
-
 ### Create Class & Schedules
 ![Create Class](screenshots/create-class.png)
-
 ## Key Features
-
 - **Dashboard:** At-a-glance metrics showing total subjects, active classes, and teachers.
 - **Class Management:** Create, view, and organize classes with subject details, assigned teachers, seat capacity, invite codes, and custom schedules.
 - **Subjects & Departments:** Organize academic subjects under their respective departments.
@@ -26,30 +17,23 @@ This project was built as a portfolio piece to demonstrate building a production
 - **Banner Uploads:** Integrated Cloudinary upload widget for class banner images.
 - **Command Menu & Theming:** Quick keyboard navigation (`Ctrl+K` / `Cmd+K`) and dark/light mode toggle.
 - **Security:** Built-in rate limiting and bot protection using Arcjet.
-
 ## Tech Stack
-
 - **Frontend:** React, TypeScript, Vite, Refine, Tailwind CSS, Radix UI
 - **Backend:** Node.js, Express, TypeScript
 - **Database:** PostgreSQL (Neon), Drizzle ORM
 - **Auth & Security:** Better Auth, Arcjet
 - **Media Storage:** Cloudinary
-
 ## How to Run Locally
-
 ### Prerequisites
 - Node.js (v18+)
 - PostgreSQL database (or Neon connection string)
 - Cloudinary account for media uploads (optional)
-
 ### Setup
-
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Jul10r/classroom.git
    cd classroom
    ```
-
 2. **Backend:**
    ```bash
    cd classroom-backend
@@ -66,7 +50,6 @@ This project was built as a portfolio piece to demonstrate building a production
    npm run db:migrate
    npm run dev
    ```
-
 3. **Frontend:**
    ```bash
    cd ../classroom-frontend
@@ -83,8 +66,3 @@ This project was built as a portfolio piece to demonstrate building a production
    ```bash
    npm run dev
    ```
-
-## Author
-
-**Julior**
-- GitHub: [@Jul10r](https://github.com/Jul10r)
